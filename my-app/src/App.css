@@ -36,3 +36,244 @@
     transform: rotate(360deg);
   }
 }
+
+.head{
+  width: 100%;
+  height: 52px;
+  background-color: #2C2F33;
+}
+.headcContent{
+  width: 1000px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.left{
+  display: flex;
+}
+.img{
+  height: 20px;
+  width: 124px;
+  align-items: center;
+}
+.img img{
+  display: block;
+  width: 124px;
+}
+.menu{
+  margin-left: 10px;
+  position: relative;
+}
+.menu::after{
+  content: '';
+  width: 1px;
+  height: 100%;
+  background: white;
+  position: absolute;
+  left: 0;
+}
+.li{
+  color:white;
+  padding: 10px 15px;
+  margin-left: 4px;
+  font-size: 14px;
+}
+.li:nth-child(2){
+  color: #F37327;
+
+}
+.li:not(:first-child){
+  cursor: pointer;
+}
+.li:not(:first-child):hover{
+  color: #F37327;
+} 
+.right{
+  font-size: 12px;
+  color: white;
+  display: flex;
+}
+.right div span{
+  margin-left: 5px;
+}
+.right span:not(:nth-child(2)){
+  cursor: pointer;
+}
+.bgimg{
+  width: 100%;
+  height: 478px;
+  background: url('https://img.alicdn.com/tfs/TB14TEEm7CWBuNjy0FaXXXUlXXa-1440-478.png') no-repeat;
+  background-size: 100%;
+}
+.imgContent{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: rgba(31,56,88,0.40);
+}
+h1,h2{
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  color:white;
+  line-height: 56px;
+}
+h1{
+  font-size:56px;
+}
+h2{
+  font-size: 34px;
+    color: #fff;
+    margin-bottom: 38px;
+    line-height: 48px;
+    font-weight: normal;
+}
+.ipt{
+  width: 490px;
+  height: 60px;
+  background: rgba(255,255,255,0.1);
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+}
+.input{
+  height: 40px;
+  width: 360px;
+  border: none;
+  padding: 0;
+  border-radius: 3px;
+  padding-left: 10px;
+}
+input:focus{
+  outline:none;
+  }
+.search{
+  color: #fff;
+  background: #F37327;
+  font-size: 14px;
+  font-family: PingFangSC-Regular;
+  width: 92px;
+  height: 40px;
+  border-radius: 3px;
+  line-height: 40px;
+}
+.conCenter{
+  width: 500px;
+  overflow: hidden;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+.job{
+  display: inline-block;
+  font-size: 12px;
+  color: white;
+  padding: 10px 8px;
+}
+.list{
+  width: 1180px;
+  margin: 0 auto;
+  text-align: left;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.listCom{
+  height: 300px;
+  width: 850px;
+  background: #FFFFFF;
+  box-shadow: 0 0 15px 0 rgba(31,56,88,0.08);
+  border-radius: 3px;
+  float: left;
+  overflow: hidden;
+}
+.listComtop{
+  height: 50px;
+  width: 100%;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(31,56,88,0.06);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.listComtop span{
+  padding: 0 10px;
+}
+.listComtop span:nth-child(1){
+  font-size: 14px;
+  font-weight: 500;
+  
+}
+.listComtop span:nth-child(2){
+  font-size: 14px;
+  font-weight: 500;
+  color:rgba(31,56,88,0.60)
+}
+.listLoop{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  height: 50px;
+  align-items: center;
+  font-size: 14px;
+}
+.listLoop span:nth-child(1){
+  color:#3C99D8;
+  font-weight: 400;
+  display: inline-block;
+
+  width: 400px;
+}
+.listLoop span:nth-child(2){
+  color:rgba(0,0,0,0.60);
+  font-weight: 400;
+  display: inline-block;
+
+  width: 100px;
+}
+.listLoop span:nth-child(3){
+  color:rgba(31,56,88,0.60);
+  font-weight: 400;
+  display: inline-block;
+
+  width: 100px;
+  text-align: right;
+}
+.twoChoose{
+  width: 310px;
+  height: 140px;
+    cursor: pointer;
+    height: 140px;
+    background: #FFFFFF;
+    box-shadow: 0 0 15px 0 rgba(31,56,88,0.08);
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.two{
+  display: flex;
+  flex-direction:column;
+  justify-content: space-between;
+}
+.twoChoose img{
+  width: 179px;
+  height: 60px;
+}
+.svg img{
+  width: 260px;
+  height: 36px;
+}
+.foot{
+  height: 44px;
+  width: 100%;
+  background-color: #2C2F33;
+  margin-top: 30px;
+  text-align: center;
+  line-height: 44px;
+  color:gray;
+  font-size: 12px;
+}
