@@ -31,6 +31,10 @@ export default class Come extends Component {
         }
     }
 
+    componentDidMount(){
+   document.title='阿里巴巴招聘'
+    }
+
     render() {
         const menu = ['社招官网', '首页', '社会招聘', '校园招聘', '了解阿里', '个人中心']
         const job = ['热门搜索', 'JAVA', 'IOS', '数据', '安全', '搜索', '算法', '运营', '视觉', '交互', '前端']
