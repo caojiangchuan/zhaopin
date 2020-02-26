@@ -277,3 +277,28 @@ input:focus{
   color:gray;
   font-size: 12px;
 }
+
+
+
+@keyframes rowup {
+  0% {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+  }
+  100% {
+      -webkit-transform: translate3d(0, -307px, 0);
+      transform: translate3d(0, -307px, 0);
+  }
+}
+.listGo{
+  width: 100%;
+  margin: 20px auto;
+  position: relative;
+  height: 300px;
+  overflow: hidden;
+}
+
+.listGo .rowup{
+  animation: 10s rowup linear infinite normal;
+  position: relative;
+}

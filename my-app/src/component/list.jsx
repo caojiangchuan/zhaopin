@@ -12,12 +12,14 @@ export default class List extends Component {
                         <span>最新职位</span>
                         <span>更多</span>
                     </div>
-                    <div>
+                    <div className="listGo">
+                    <div className='rowup'>
                         {
                             this.props.list.map((item, key) => {
-                                return (<div key={key} className="listLoop"><span>{item.job}</span><span>{item.city}</span><span>{item.time}</span></div>)
+                                return (<div key={key} className="listLoop item"><span>{item.job}</span><span>{item.city}</span><span>{item.time}</span></div>)
                             })
                         }
+                    </div>
                     </div>
                 </div>
             </div>

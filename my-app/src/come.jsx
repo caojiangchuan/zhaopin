@@ -14,6 +14,18 @@ export default class Come extends Component {
             },{
                 job: "阿里集团-飞猪-场景运营专家", city: '杭州', time: '10分钟前'
             },{
+                job: "口碑-O2O业务", city: '南京', time: '9分钟前'
+            },{
+                job: "口碑-O2O业务发展专", city: '南京', time: '9分钟前'
+            },{
+                job: "口碑-O2O业务发展专家/高级专家-南宁/海口/三亚", city: '南京', time: '9分钟前'
+            },{
+                job: "口碑-O2O业务发展专家/高级", city: '南京', time: '9分钟前'
+            },{
+                job: "口碑-O2O业务发展专家/高级专家-南宁/海口/三亚", city: '南京', time: '9分钟前'
+            },{
+                job: "口碑-O2O业务", city: '南京', time: '9分钟前'
+            },{
                 job: "口碑-O2O业务发展专家/高级专家-南宁/海口/三亚", city: '南京', time: '9分钟前'
             }]
         }
